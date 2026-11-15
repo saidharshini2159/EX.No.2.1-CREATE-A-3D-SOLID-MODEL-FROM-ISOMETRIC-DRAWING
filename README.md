@@ -1,5 +1,5 @@
 # EX.No.2.1  CREATE A 3D SOLID MODEL FROM ISOMETRIC DRAWING
-## Date:
+## Date: 12.10.2026
 
 ## AIM
 To create a 3Dmodel from the given isometric drawing using fusion 360 tool. 
@@ -12,65 +12,27 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 
 ## PROCEDURE
 
- ### STEP-1:  Start the sketch command
+1. Open Fusion 360 and create a sketch on the XY plane.
+2. Draw the main rectangular body using the Rectangle tool.
+3.  <img width="953" height="467" alt="Screenshot 2026-11-16 025241" src="https://github.com/user-attachments/assets/fa3b5da4-61a1-4253-8199-f7ee5b408e71" />
 
-   Select Sketch > Create Sketch.
+4. Add the front cylindrical portion using the Circle tool.
+5. <img width="592" height="491" alt="Screenshot 2026-11-16 020302" src="https://github.com/user-attachments/assets/45fd3687-1a59-4658-9df1-08e56861bfa7" />
 
- ### STEP-2:  Select the Sketch Plane
+6. Create the top raised portions using Rectangle and Line tools.
+7. Apply the required dimensions and constraints.
+8. <img width="532" height="408" alt="Screenshot 2026-11-16 025440" src="https://github.com/user-attachments/assets/c9c62a6b-336a-4aa0-9d30-c94629200020" />
 
-   Select the Front (XZ) Plane
-
-### STEP-3: Create a Rectangle 
-
-   1.	Select Sketch > Rectangle > Center Rectangle.
-   2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-   3.	Click once to begin placing the rectangle.
-   4.	Type the Tab button and enter the values 100 mm and 60mm for the width and height respectively.
-   5.	Click again to place the rectangle.
-   6.	Click Finish Sketch after completing.
-
- ### STEP-4: Extrude Rectangle in XZ Plane
-   1.	Select Extrude.
-   2.	Select the Rectangle sketch.
-   3.	Click again to place the value.
-   4.	Type in the value of 30mm. 
-   5.	Press ENTER to accept the value.
-
- ### STEP-5:  Start the sketch command
-   Select Sketch > Create Sketch.
- ### STEP-6: Select the Sketch Plane
-   Select the FRON SURFACE of rectangular block 
- ### STEP-7: Create a CIRCLE 
-   1.	Select Sketch >CIRCLE  > CENTER CIRCLE.
-   2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-   3.	Click once to begin placing the CIRCLE.
-   4.	Type the Tab button and enter the value DIA 100mm .
-   5.	Click again to place the circle.
-   6.	Click Finish Sketch after completing.
-
- ### STEP-8:  Extrude CIRCLE 
-   1.	Select Extrude.
-   2.	Select the Rectangle sketch.
-   3.	Click again to place the value.
-   4.	Type in the value of 20mm. 
-   5.	Press ENTER to accept the value.
-
- ### STEP-9: Start the sketch command
-   Select Sketch > Create Sketch.
-   
- ### STEP-10: Select the Sketch Plane
-   Select the TOP SURFACE OF RECTANGLE.
-   
- ### STEP-11: Create a line
-	1.Select Line command.
-	2. Draw the projections in the diagram 
-	3. Click Finish Sketch.
-	4. extrude the sketch.
+9. Use Extrude to form the 3D features.
+10. Inspect and save the completed model.
+Tools Used: Create Sketch, Rectangle, Circle, Line, Dimension, Extrude and Save.
 
 ## INPUT
-![image](https://user-images.githubusercontent.com/113594316/198495472-9a69edb1-f0c6-470c-b9ae-fe282fa6a678.png)
+<img width="857" height="702" alt="Screenshot 2026-11-16 024613" src="https://github.com/user-attachments/assets/d6ede7c3-178d-4221-b2c0-2076376d2da8" />
+
 
 ## OUTPUT
+<img width="1013" height="712" alt="Screenshot 2026-11-16 024813" src="https://github.com/user-attachments/assets/8eaaee2f-c715-4f7d-b710-b1c517a2e609" />
 
 ## RESULT: 
  Thus, the 3D model is created from given isometric drawing.
